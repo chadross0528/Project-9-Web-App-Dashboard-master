@@ -152,6 +152,7 @@ h2 {
     height: 8px;
     position: absolute;
     top: 18px;
+    right: 108px;
 }
 
 .user-pic {
@@ -543,6 +544,10 @@ button {
         cursor: pointer;
     }
 
+   #daily-traffic-widget-container,
+   #mobile-users-container{
+    width: 50%;
+  }
 
 
 /*tablet*/
@@ -553,6 +558,11 @@ button {
         min-height: 2000px;
         width: 100%;
     }
+
+    #notifier {
+      right: 155px;
+    }
+
     
     .navbar {
         flex-direction: column;
@@ -673,6 +683,7 @@ button {
     }  
     
 }
+
 
 
 /*desktops*/
@@ -863,4 +874,7 @@ button {
     }
 
 }
+
+
+  
 
